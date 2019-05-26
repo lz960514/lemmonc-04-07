@@ -1,0 +1,23 @@
+{
+  "name": "lemmonc-04-07",
+  "version": "1.0.0",
+  "description": "柠檬学院第四阶段学习资料",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lz960514/lemmonc-04-07.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lz960514/lemmonc-04-07/issues"
+  },
+  "homepage": "https://github.com/lz960514/lemmonc-04-07#readme",
+  "dependencies": {
+    "@types/jquery": "^3.3.29",
+    "jquery": "^3.4.1"
+  }
+}

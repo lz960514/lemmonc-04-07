@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+
+    </style>
+    <script src="https://cdn.bootcss.com/vue/2.6.10/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        {{ title }}
+    </div>
+    <script>
+        let vm = new Vue({
+            el: "#app",
+            data: {
+                title: "我的第一个Vue实例"
+            }
+        })
+        console.log(vm)
+    </script>
+</body>
+
+</html>
